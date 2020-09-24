@@ -1,0 +1,22 @@
+.list {
+    width: 350px;
+}
+
+.lists {
+    list-style-type: upper-roman;
+}
+
+.nested_list {
+    list-style-type: lower-roman;
+}
+
+.kod {
+    width: 400px;
+    color: green;
+    background-color: black;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
+}

@@ -1,0 +1,59 @@
+.cards_1 {
+    width: 142px;
+    height: 195px;
+    background-image: url("../image/cards.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -145px -200px;
+}
+
+.cards_2 {
+    width: 142px;
+    height: 195px;
+    background-image: url("../image/cards.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -431px -595px;
+}
+
+.cards_3 {
+    width: 142px;
+    height: 195px;
+    background-image: url("../image/cards.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -285px -1390px;
+}
+
+.karta {
+    width: 500px;
+    height: 400px;
+}
+
+.cards_4 {
+    width: 142px;
+    height: 195px;
+    background-image: url("../image/cards.png");
+    display: inline-block;
+    background-position: -145px -200px;
+}
+
+.cards_5 {
+    width: 142px;
+    height: 195px;
+    background-image: url("../image/cards.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -430px -596px;
+    margin-left: -50px;
+}
+
+.cards_6 {
+    width: 142px;
+    height: 195px;
+    background-image: url("../image/cards.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -286px -1392px;
+    margin-left: -50px;
+}
