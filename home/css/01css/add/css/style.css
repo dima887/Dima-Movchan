@@ -1,0 +1,19 @@
+header {
+    text-align: right;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Bad Script', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+article p {
+    font-family: 'Amatic SC', cursive;
+    text-indent: 10px;
+}
