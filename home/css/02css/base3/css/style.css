@@ -1,0 +1,35 @@
+.content_wrap {
+    background-color: rgb(228, 248, 238);
+}
+
+.nav {
+    width: 15em;
+    background-color: rgb(192, 192, 194);
+    float: left;
+}
+
+
+.off {
+    width: 15em;
+    height: 247px;
+    background-color: rgb(228, 248, 238);
+    float: left;
+    clear: left;
+}
+
+.article {
+    background-color: rgb(151, 148, 148);
+    margin-bottom: 2em;
+    padding-top: 1px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+}
+
+
+.footer {
+    background-color: rgb(197, 195, 191);
+    clear: both;
+}
