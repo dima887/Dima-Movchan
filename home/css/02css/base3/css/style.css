@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .content_wrap {
-    background-color: rgb(228, 248, 238);
+    background-color: rgb(239, 243, 241);
 }
 
 .nav {
@@ -9,17 +15,10 @@
 }
 
 
-.off {
-    width: 15em;
-    height: 247px;
-    background-color: rgb(228, 248, 238);
-    float: left;
-    clear: left;
-}
-
 .article {
     background-color: rgb(151, 148, 148);
     margin-bottom: 2em;
+    margin-left: 15em;
     padding-top: 1px;
 }
 
