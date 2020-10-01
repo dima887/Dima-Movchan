@@ -1,0 +1,136 @@
+.menu {
+    text-align: center;
+}
+
+.menu ul li {
+    width: 150px;
+    padding: 3px 0;
+    border: solid 2px;
+    border-radius: 4px;
+    background-color: rgb(218, 218, 218);
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+.menu a {
+    color: rgb(121, 121, 121);
+}
+
+.menu > ul > li > ul > li {
+    font-size: 1em;
+}
+
+.menu ul > li:hover {
+    background-color: rgb(121, 121, 121);
+}
+
+.menu ul ul > li:hover{
+    background-color: rgb(121, 121, 121);
+}
+
+.menu ul li, .menu ul {
+    display: inline-block;
+}
+
+.menu ul {
+    position: relative;
+}
+
+.menu ul ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -103px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+.menu > ul > li:hover  a {
+    color: white;
+}
+.menu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu li:hover li {
+    display: block; 
+}
+
+
+
+
+@media all and (max-width: 980px){
+    .menu {
+        width: 250px;
+        display: block;
+    }
+    
+    .menu ul li {
+        width: 250px;
+        padding: 3px 0;
+        border: solid 2px;
+        border-radius: 4px;
+        background-color: rgb(218, 218, 218);
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    .menu > ul > li {
+        float: left;
+    }
+    
+    .menu a {
+        color: rgb(121, 121, 121);;
+    }
+    
+    .menu > ul > li > ul > li {
+        font-size: 1em;
+    }
+    
+    .menu ul > li:hover {
+        background-color: rgb(121, 121, 121);
+    }
+    
+    .menu ul ul > li:hover{
+        background-color: rgb(121, 121, 121);
+    }
+    
+    .menu ul li, .menu ul {
+        display: inline-block;
+    }
+    
+    .menu ul {
+        position: relative;
+    }
+    
+    .menu ul ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -42px;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+    }
+    .menu > ul > li:hover  a {
+        color: white;
+    }
+    .menu li:hover ul {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .menu li:hover li {
+        display: block;
+    }
+    
+}
