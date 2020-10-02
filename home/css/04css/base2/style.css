@@ -1,0 +1,21 @@
+table, th, td {
+    border: dotted 1px black;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+tr:nth-child(odd) {
+    background-color: silver;
+}
+tr:nth-child(odd):hover, tr:nth-child(even):hover {
+    color: white;
+    background-color: rgb(118, 116, 116);
+    cursor: pointer;
+}
+
+tr:not(:nth-child(1)) {
+    text-align: left;
+}
