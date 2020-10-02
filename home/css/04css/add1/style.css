@@ -1,0 +1,41 @@
+p {
+    text-indent: 10px;
+    border: solid 2px silver;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+a[href^="https://"]::before {
+    content: url('image/extref.png');
+}
+
+p > a[href$=".doc"]::after {
+    content: url('image/logo-doc.jpg');
+}
+
+p > a[href$=".pdf"]::after {
+    content: url('image/logo-pdf.png');
+}
+
+p > a[href$=".zip"]::after {
+    content: url('image/logo-zip.gif');
+}
+
+ul > li {
+    list-style: none;
+    list-style-image: url('image/logo-list.jpg');
+}
+
+ul > li:hover a[href$=".doc"]::after {
+    content: url('image/logo-doc.jpg');
+}
+
+ul > li:hover a[href$=".pdf"]::after {
+    content: url('image/logo-pdf.png');
+}
+
+ul > li:hover a[href$=".zip"]::after {
+    content: url('image/logo-zip.gif');
+}

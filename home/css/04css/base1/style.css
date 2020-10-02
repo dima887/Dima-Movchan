@@ -1,0 +1,48 @@
+p {
+    text-indent: 10px;
+    border: solid 2px silver;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+a[href^="https://"] {
+    padding-left: 12px;
+    background: url('image/extref.png') no-repeat left;
+}
+
+p > a[href$=".doc"] {
+    padding-right: 17px;
+    background: url('image/logo-doc.jpg') no-repeat right;
+}
+
+p > a[href$=".pdf"] {
+    padding-right: 17px;
+    background: url('image/logo-pdf.png') no-repeat right;
+}
+
+p > a[href$=".zip"] {
+    padding-right: 17px;
+    background: url('image/logo-zip.gif') no-repeat right;
+}
+
+ul > li {
+    list-style: none;
+    list-style-image: url('image/logo-list.jpg');
+}
+
+ul > li:hover a[href$=".doc"] {
+    padding-right: 18px;
+    background: url('image/logo-doc.jpg') no-repeat right;
+}
+
+ul > li:hover a[href$=".pdf"] {
+    padding-right: 18px;
+    background: url('image/logo-pdf.png') no-repeat right;
+}
+
+ul > li:hover a[href$=".zip"] {
+    padding-right: 18px;
+    background: url('image/logo-zip.gif') no-repeat right;
+}
